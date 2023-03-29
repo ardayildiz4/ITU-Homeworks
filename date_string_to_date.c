@@ -1,3 +1,6 @@
+// This function converts your string date to a date. 
+// For example, you get the output "20.09.2001" as a response to your string input "20/09/2001".
+
 char* date2str(int day,int month,int year)
 {
 if (day > 31 || month > 12) return "Invalid"; 
